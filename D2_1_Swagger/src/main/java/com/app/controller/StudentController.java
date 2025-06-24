@@ -44,4 +44,11 @@ public class StudentController {
 		
 		log.info("---------------");
 	}
+
+	@PutMapping
+	public void editStudent() {
+		
+		log.info("---------------");
+	}
+	
 }
